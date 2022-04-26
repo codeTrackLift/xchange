@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/xchange/static/css/main.cca6d9c5.css",
-    "main.js": "/xchange/static/js/main.1d650f90.js",
+    "main.js": "/xchange/static/js/main.ee89eb25.js",
     "static/media/mit.jpg": "/xchange/static/media/mit.f147b08669d4d07e70ce.jpg",
     "static/media/busTracker.gif": "/xchange/static/media/busTracker.45f02aa6d6c66b49b3c4.gif",
     "static/media/mobileBanking.png": "/xchange/static/media/mobileBanking.8c4a9c54a127d2fea0ac.png",
     "static/media/mobileEuro.jpg": "/xchange/static/media/mobileEuro.55b47cd1f206295b8009.jpg",
     "index.html": "/xchange/index.html",
     "main.cca6d9c5.css.map": "/xchange/static/css/main.cca6d9c5.css.map",
-    "main.1d650f90.js.map": "/xchange/static/js/main.1d650f90.js.map"
+    "main.ee89eb25.js.map": "/xchange/static/js/main.ee89eb25.js.map"
   },
   "entrypoints": [
     "static/css/main.cca6d9c5.css",
-    "static/js/main.1d650f90.js"
+    "static/js/main.ee89eb25.js"
   ]
 }
