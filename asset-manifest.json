@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/xchange/static/css/main.91a8df8b.css",
-    "main.js": "/xchange/static/js/main.9c7b0bef.js",
+    "main.css": "/xchange/static/css/main.eaa1906c.css",
+    "main.js": "/xchange/static/js/main.0804e514.js",
     "static/media/giphyPomodoro.gif": "/xchange/static/media/giphyPomodoro.584c19fcb84a79aae128.gif",
     "static/media/mit.jpg": "/xchange/static/media/mit.f147b08669d4d07e70ce.jpg",
     "static/media/busTracker.gif": "/xchange/static/media/busTracker.45f02aa6d6c66b49b3c4.gif",
@@ -10,11 +10,11 @@
     "static/media/drumCalc.gif": "/xchange/static/media/drumCalc.5450cffbccabd19c0949.gif",
     "static/media/twitterLogoBlue.png": "/xchange/static/media/twitterLogoBlue.6047ff40a8faddd6e9d5.png",
     "index.html": "/xchange/index.html",
-    "main.91a8df8b.css.map": "/xchange/static/css/main.91a8df8b.css.map",
-    "main.9c7b0bef.js.map": "/xchange/static/js/main.9c7b0bef.js.map"
+    "main.eaa1906c.css.map": "/xchange/static/css/main.eaa1906c.css.map",
+    "main.0804e514.js.map": "/xchange/static/js/main.0804e514.js.map"
   },
   "entrypoints": [
-    "static/css/main.91a8df8b.css",
-    "static/js/main.9c7b0bef.js"
+    "static/css/main.eaa1906c.css",
+    "static/js/main.0804e514.js"
   ]
 }
