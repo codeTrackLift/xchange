@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/xchange/static/css/main.3f613786.css",
-    "main.js": "/xchange/static/js/main.11886309.js",
+    "main.css": "/xchange/static/css/main.56bb5d27.css",
+    "main.js": "/xchange/static/js/main.9c1ccb63.js",
     "static/media/giphyPomodoro.gif": "/xchange/static/media/giphyPomodoro.584c19fcb84a79aae128.gif",
     "static/media/mit.jpg": "/xchange/static/media/mit.f147b08669d4d07e70ce.jpg",
     "static/media/busTracker.gif": "/xchange/static/media/busTracker.45f02aa6d6c66b49b3c4.gif",
     "static/media/mobileBanking.png": "/xchange/static/media/mobileBanking.8c4a9c54a127d2fea0ac.png",
     "static/media/mobileEuro.jpg": "/xchange/static/media/mobileEuro.55b47cd1f206295b8009.jpg",
-    "static/media/bankIcon.png": "/xchange/static/media/bankIcon.ae0e9ddaadc8e54f0842.png",
+    "static/media/bankIcon.png": "/xchange/static/media/bankIcon.31073aa4511b9b3a04f2.png",
     "static/media/drumCalc.gif": "/xchange/static/media/drumCalc.5450cffbccabd19c0949.gif",
     "static/media/twitterLogoBlue.png": "/xchange/static/media/twitterLogoBlue.6047ff40a8faddd6e9d5.png",
     "index.html": "/xchange/index.html",
-    "main.3f613786.css.map": "/xchange/static/css/main.3f613786.css.map",
-    "main.11886309.js.map": "/xchange/static/js/main.11886309.js.map"
+    "main.56bb5d27.css.map": "/xchange/static/css/main.56bb5d27.css.map",
+    "main.9c1ccb63.js.map": "/xchange/static/js/main.9c1ccb63.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f613786.css",
-    "static/js/main.11886309.js"
+    "static/css/main.56bb5d27.css",
+    "static/js/main.9c1ccb63.js"
   ]
 }
