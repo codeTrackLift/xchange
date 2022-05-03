@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/xchange/static/css/main.bdd43abb.css",
-    "main.js": "/xchange/static/js/main.a9679eb3.js",
+    "main.css": "/xchange/static/css/main.6027e2a0.css",
+    "main.js": "/xchange/static/js/main.bd249b5e.js",
     "static/media/giphyPomodoro.gif": "/xchange/static/media/giphyPomodoro.584c19fcb84a79aae128.gif",
     "static/media/giphySecurity.gif": "/xchange/static/media/giphySecurity.24176c3e06d74996d955.gif",
     "static/media/mit.jpg": "/xchange/static/media/mit.f147b08669d4d07e70ce.jpg",
@@ -15,11 +15,11 @@
     "static/media/twitterLogoBlue.png": "/xchange/static/media/twitterLogoBlue.6047ff40a8faddd6e9d5.png",
     "static/media/yt_logo_light.png": "/xchange/static/media/yt_logo_light.25365d340778bb4fd998.png",
     "index.html": "/xchange/index.html",
-    "main.bdd43abb.css.map": "/xchange/static/css/main.bdd43abb.css.map",
-    "main.a9679eb3.js.map": "/xchange/static/js/main.a9679eb3.js.map"
+    "main.6027e2a0.css.map": "/xchange/static/css/main.6027e2a0.css.map",
+    "main.bd249b5e.js.map": "/xchange/static/js/main.bd249b5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.bdd43abb.css",
-    "static/js/main.a9679eb3.js"
+    "static/css/main.6027e2a0.css",
+    "static/js/main.bd249b5e.js"
   ]
 }
