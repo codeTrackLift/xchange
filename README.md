@@ -4,7 +4,7 @@
 
  ***Try Demo:*** [https://codetracklift.github.io/xchange/](https://codetracklift.github.io/xchange/)
 
-The development timeframe for this project was 10 days, and was completed about 6 months into myCodingJourney.
+This project was developed in 10 days, and was completed about 6 months into myCodingJourney.
 
 >**Skills Utilized**:
 <ol>
