@@ -17,10 +17,10 @@
     transition: all 0.125s ease-in-out !important;
     width: fit-content;
     font-weight: bolder;
-    color: white !important;
-    text-shadow: 1px 1px 1px cornflowerblue;
-    -webkit-filter: drop-shadow(2px 2px 2px black);
-    filter: drop-shadow(2px 2px 2px black);
+    color: cornflowerblue !important;
+    text-shadow: 1px 1px 1px black;
+    -webkit-filter: drop-shadow(1px 1px 1px black);
+    filter: drop-shadow(1px 1px 1px black);
 }
 
 @media (max-width: 1000px) {
