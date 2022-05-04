@@ -4,7 +4,7 @@
 
  ***Try Demo:*** [https://codetracklift.github.io/xchange/](https://codetracklift.github.io/xchange/)
 
-    The development timeframe for this React App was about 2 weeks.  This project was completed about 6 months into myCodingJourney.
+The development timeframe for this React App was about 2 weeks, and was completed about 6 months into myCodingJourney.
 
 >**Skills Utilized**:
 <ol>
