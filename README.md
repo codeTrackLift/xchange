@@ -4,7 +4,7 @@
 
  ***Try Demo:*** [https://codetracklift.github.io/xchange/](https://codetracklift.github.io/xchange/)
 
-The development timeframe for this React App was about 2 weeks, and was completed about 6 months into myCodingJourney.
+The development timeframe for this project was 10 days, and was completed about 6 months into myCodingJourney.
 
 >**Skills Utilized**:
 <ol>
@@ -20,7 +20,7 @@ The development timeframe for this React App was about 2 weeks, and was complete
 ## About
 This is the MIT xPRO Full Stack Coding Bootcamp Front End Project, starter code was provided. 
 
-The project is a functional, fully responsive, and mobile first web application that allows users to create, edit, and delete their own bank accounts.
+The project is a functional, fully responsive, and mobile first web application that allows users to create bank accounts, make deposits and withdrawals, and review user data and transaction history.  This application uses local and session storage to simulate a back-end database.
 
 > Project Requirements:
 
