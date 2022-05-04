@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/xchange/static/css/main.cc984453.css",
-    "main.js": "/xchange/static/js/main.8271087d.js",
+    "main.js": "/xchange/static/js/main.7caf0fbd.js",
     "static/media/giphyPomodoro.gif": "/xchange/static/media/giphyPomodoro.584c19fcb84a79aae128.gif",
     "static/media/giphySecurity.gif": "/xchange/static/media/giphySecurity.24176c3e06d74996d955.gif",
     "static/media/mit.jpg": "/xchange/static/media/mit.f147b08669d4d07e70ce.jpg",
     "static/media/mobileBanking.png": "/xchange/static/media/mobileBanking.8c4a9c54a127d2fea0ac.png",
-    "static/media/qrByPete_light.png": "/xchange/static/media/qrByPete_light.f32e74ed0ce390fe438d.png",
     "static/media/mobileEuro.jpg": "/xchange/static/media/mobileEuro.55b47cd1f206295b8009.jpg",
+    "static/media/cartoonMoney.png": "/xchange/static/media/cartoonMoney.a1931aa5ea722697c326.png",
     "static/media/cashAtm.png": "/xchange/static/media/cashAtm.80fb556a8b9e018a92c7.png",
     "static/media/wallet.png": "/xchange/static/media/wallet.e1ee33ba748c5b53f8c3.png",
     "static/media/markdownPreviewer.jpg": "/xchange/static/media/markdownPreviewer.833fd0e324ad81b8c9a4.jpg",
@@ -18,10 +18,10 @@
     "static/media/qrxChange.png": "/xchange/static/media/qrxChange.2e89e4a35ccab5ac8cd8.png",
     "index.html": "/xchange/index.html",
     "main.cc984453.css.map": "/xchange/static/css/main.cc984453.css.map",
-    "main.8271087d.js.map": "/xchange/static/js/main.8271087d.js.map"
+    "main.7caf0fbd.js.map": "/xchange/static/js/main.7caf0fbd.js.map"
   },
   "entrypoints": [
     "static/css/main.cc984453.css",
-    "static/js/main.8271087d.js"
+    "static/js/main.7caf0fbd.js"
   ]
 }
