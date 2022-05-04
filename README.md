@@ -73,11 +73,13 @@ The project is a functional, fully responsive, and mobile first web application 
 > Custom Design Elements:
 
 <ol>
+    <li>Currency exchange theme</li>
     <li>Customized images, logos, and icons</li>
-    <li>CSS animations and Transitions</li>
+    <li>CSS animations and transitions</li>
     <li>Mobile QR code</li>
-    <li>'JS Stock Ticker' displaying current exchange rates</li>
-    <li>Simulated business footer with animated elements and social links</li>
+    <li>JavaScript 'stock ticker' displaying current exchange rates</li>
+    <li>Loading animation while fetching</li>
+    <li>Business-like footer with animated elements and social links</li>
     <li>Free productivity apps, a limited time special offer!</li>
 </ol>
 
