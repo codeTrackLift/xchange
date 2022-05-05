@@ -30,6 +30,9 @@ export const Create = ({ctx, setUser}) => {
         if(!values.nameField.match(/^[A-Za-z0-9 ]+$/)) {
             errors.name = 'no special characters allowed*';
         }
+        // if(values.nameField[values.nameField.length + 1] == ' ') {
+        //     errors.name = 'cannot end in a space*';
+        // }
         if(!values.pswField) {
             errors.password = 'is required*';
         } 
@@ -72,8 +75,8 @@ export const Create = ({ctx, setUser}) => {
         },
         validate,
         onSubmit: (values, {resetForm}) => {
-            let name = values.nameField.toLowerCase()
-            let email = values.emailField.toLowerCase()
+            let name = values.nameField.toLowerCase().trim();
+            let email = values.emailField.toLowerCase().trim();
             const userName = capitalize(name);
             const id = hash(name, email);
             alert(`ACCOUNT SUCCESSFULLY CREATED\n\nWelcome to the xCHANGE, ${userName}.\n\nAccount ${id} has been created with a bonus deposit of $2,022.07!`);
