@@ -4,7 +4,7 @@
 
  ***Try Demo:*** [https://codetracklift.github.io/xchange/](https://codetracklift.github.io/xchange/)
 
-This project was developed in 10 days, and was completed about 6 months into myCodingJourney.
+This project was developed in about 10 days, and was completed approximately 6 months into myCodingJourney.
 
 >**Skills Utilized**:
 <ol>
@@ -20,7 +20,7 @@ This project was developed in 10 days, and was completed about 6 months into myC
 ## About
 This is the MIT xPRO Full Stack Coding Bootcamp Front End Project, starter code was provided. 
 
-The project is a functional, fully responsive, and mobile first web application that allows users to create bank accounts, make deposits and withdrawals, and review user data and transaction history.  This application uses local and session storage to simulate a back-end database.
+The project is a functional, fully responsive, and mobile first web application that allows users to create bank accounts, make transactions, and review user data.  This application uses local and session storage to simulate a back-end database.
 
 > Project Requirements:
 
