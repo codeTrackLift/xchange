@@ -56,3 +56,11 @@ section>.btn:hover,
     background-color: transparent !important;
     border: 2px solid #990033 !important;
 }
+
+.imgHover {
+    transition: transform 0.25s ease-in-out;
+}
+
+.imgHover:hover {
+    transform: translateY(-0.5rem);
+}

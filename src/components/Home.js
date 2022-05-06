@@ -60,7 +60,7 @@ export const Home = () => {
                 </Nav.Link>
                 <div className='row'>
                     <h5 className='text-center my-auto col-8'>Now in the App Store, bank with us on mobile!</h5>
-                    <img src={qrxChange} style={qrxChangeStyle} className='img-fluid col-4' alt='QR code for MIT xChange Bad Bank Project'/>
+                    <img src={qrxChange} style={qrxChangeStyle} className='img-fluid col-4 imgHover' alt='QR code for MIT xChange Bad Bank Project'/>
                 </div>
             </div>
             
@@ -71,7 +71,7 @@ export const Home = () => {
                 <HomeCard 
                     id={'pomodoroCard'}
                     header={'Pomodoro Clock + Test Mode'}
-                    title={<img src={pomodoro} alt='Pomodoro app animated gif' className='img-fluid' />}
+                    title={<img src={pomodoro} alt='Pomodoro app animated gif' className='img-fluid imgHover' />}
                     text1={`Do you have trouble focusing?  Are you easily distracted?`}
                     text2={`Use our Pomodoro Clock, with integrated 'Test Mode' to enhance your productivity!`}
                     btnClass={''}
@@ -82,7 +82,7 @@ export const Home = () => {
                 <HomeCard 
                     id={'markdownCard'}
                     header={'Markdown Previewer React App'}
-                    title={<img src={markdown} alt='HTML Markdown Previewer build in React JS' className='img-fluid'/>}
+                    title={<img src={markdown} alt='HTML Markdown Previewer build in React JS' className='img-fluid imgHover'/>}
                     text1={`Too busy to check if your HTML markdown is semantically correct?`}
                     text2={`No problem! Just use our free Markdown Previewer!  It was built using create-react-app!`}
                     btnClass={'float-end'}
@@ -93,7 +93,7 @@ export const Home = () => {
                 <HomeCard 
                     id={'drumCalcCard'}
                     header={'Drum Set Calculator'}
-                    title={<img src={drumCalc} alt='Drum set calculator' className='img-fluid' />}
+                    title={<img src={drumCalc} alt='Drum set calculator' className='img-fluid imgHover' />}
                     text1={`Ever wanted to play the drums while doing math?`}
                     text2={`Well now you can! Practice your rhythm as you enter digits and perform arithmetic.`}
                     btnClass={''}

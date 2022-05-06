@@ -39,7 +39,7 @@ export const Footer = () => {
     return (
         <footer className='text-center mt-5' style={footerStyle}>
 
-            <img src={xChange} className='img-fluid m-auto col-sm-4' style={xChangeStyle} alt='MIT xCHANGE logo' />
+            <img src={xChange} className='img-fluid m-auto col-sm-4 imgHover' style={xChangeStyle} alt='MIT xCHANGE logo' />
 
             <div id='socials' className='text-center'>
                 <h4 style={h4Style}>Follow us on the socials...</h4>

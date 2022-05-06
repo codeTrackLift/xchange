@@ -46,6 +46,7 @@ export const UserData = ({ctx, setUser}) => {
     const resetCookies = () => {
         setUser(null);
         localStorage.removeItem('xchange');
+        alert('USER DATA RESET\n\nUser data has been reset, thank you for visiting!')
         window.location.reload(false);
     }
 

@@ -112,7 +112,7 @@ export const Header = ({ user, setUser, setTitle}) => {
             <img
                 src={xChange}
                 alt='MIT xChange Logo'
-                className='img-fluid'
+                className='img-fluid imgHover'
                 style={xChangeImgStyle}
             />
 
