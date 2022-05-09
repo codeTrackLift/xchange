@@ -55,7 +55,7 @@ export const Transaction = ({ctx, user, type}) => {
             errors.value = 'is not a number*'
         } 
         if(type === 'Withdraw' &&
-            values.valueField > balance) {
+            (balance - values.valueField) < 0) {
             errors.value = 'insufficient balance*'
         }
         return errors;
