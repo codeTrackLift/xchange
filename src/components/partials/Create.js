@@ -27,9 +27,6 @@ export const Create = ({ctx, setUser}) => {
         if(!values.nameField) {
             errors.name = 'is required*';
         } 
-        // if(!values.nameField.match(/^[A-Za-z0-9 ]+$/)) {
-        //     errors.name = 'no special characters allowed*';
-        // }
         if(!values.pswField) {
             errors.password = 'is required*';
         } 
