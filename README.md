@@ -1,5 +1,4 @@
 # <img src='./public/favicon.ico' alt='MIT xPro logo' width='30'> **MIT xCHANGE** | BadBank Project <img src='https://codetracklift.github.io/codeTrackLift/logos/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'>
-
 <img src='./src/images/giphyStockTicker.gif' alt='MIT xCHANGE custom JavaScript stock ticker animated gif'>
 
  ***Try Demo:*** [https://codetracklift.github.io/xchange/](https://codetracklift.github.io/xchange/)
@@ -11,13 +10,15 @@ Initial development of this project took about 10 days.  This was completed appr
 >**Skills Utilized**:
 <ol>
     <li>Languages: HTML, CSS, JavaScript</li>
-    <li>Mobile first and responsive design</li>
     <li>React Hooks: useState, useEffect, useContext</li>
     <li>Axios, Bootstrap, Formik, ReactRouter, ScrollMagic</li>
     <li>API fetch and dynamic component rendering</li>
     <li>Entry validation with error handling</li>
     <li>Local and session storage</li>
+    <li>Mobile first and responsive design</li>
 </ol>
+
+<img src='./src/images/qrxChange.png' alt='MIT xCHANGE QR code' width='60'> 
 
 ## About
 This is the MIT xPRO Full Stack Coding Bootcamp Front End Project, starter code was provided. 
