@@ -18,7 +18,7 @@ Initial development of this project took about 10 days.  This was completed appr
     <li>Mobile first and responsive design</li>
 </ol>
 
-<img src='./src/images/qrxChange.png' alt='MIT xCHANGE QR code' width='60'> 
+<img src='./src/images/qrxChange.png' alt='MIT xCHANGE QR code' width='90'> 
 
 ## About
 This is the MIT xPRO Full Stack Coding Bootcamp Front End Project, starter code was provided. 
