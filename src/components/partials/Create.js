@@ -76,8 +76,8 @@ export const Create = ({ctx, setUser}) => {
             let email = values.emailField.toLowerCase().trim();
             const userName = capitalize(name);
             const id = hash(name, email);
-            alert(`ACCOUNT SUCCESSFULLY CREATED\n\nWelcome to the xCHANGE, ${userName}.\n\nAccount ${id} has been created with a bonus deposit of $2,022.07!`);
-            ctx.users.push({id:id,name:name,email:email,password:values.pswField,balance:2022.07,transactions:[[newDate(),'Deposit','2022.07',initialNote()]]});
+            alert(`ACCOUNT SUCCESSFULLY CREATED\n\nWelcome to the xCHANGE, ${userName}.\n\nAccount ${id} has been created with a bonus deposit of $2,022!`);
+            ctx.users.push({id:id,name:name,email:email,password:values.pswField,balance:2022.00,transactions:[[newDate(),'Deposit','2022',initialNote()]]});
             localStorage.setItem('xchange', JSON.stringify(ctx));
             setUser(`${userName}, Account Number: ${id}`);
             setShow(false);
