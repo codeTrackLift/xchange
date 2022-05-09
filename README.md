@@ -4,6 +4,8 @@
 
  ***Try Demo:*** [https://codetracklift.github.io/xchange/](https://codetracklift.github.io/xchange/)
 
+ ***Video Tour:*** [https://youtu.be/qeuvfEmJ7_s/](https://youtu.be/qeuvfEmJ7_s/)
+
 Initial development of this project took about 10 days.  This was completed approximately 6 months into myCodingJourney.
 
 >**Skills Utilized**:
