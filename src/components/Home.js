@@ -10,6 +10,7 @@ import qrxChange from '../images/qrxChange.png';
 import markdown from '../images/markdownPreviewer.jpg';
 import pomodoro from '../images/giphyPomodoro.gif';
 import drumCalc from '../images/drumCalc.gif';
+import listIcon from '../images/listIcon.png';
 
 import '../styles/home.css';
 
@@ -63,6 +64,21 @@ export const Home = () => {
                     <img src={qrxChange} style={qrxChangeStyle} className='img-fluid col-4 imgHover' alt='QR code for MIT xChange Bad Bank Project'/>
                 </div>
             </div>
+
+            <div className='container-fluid text-center'>
+                <h5><u>Video Tour</u></h5>
+                <iframe 
+                    className='ratio-16x9' 
+                    src="https://youtube.com/embed/qeuvfEmJ7_s" 
+                    frameBorder="0" 
+                    allowFullScreen 
+                    title='MIT xCHANGE bootcamp project video' 
+                    style={{
+                        height: 'clamp(10rem,15rem,20rem)',
+                        width: 'clamp(15rem,25rem,95vw)',
+                    }}
+                />
+            </div>
             
             <Row style={silverStyle}>
 
@@ -104,13 +120,7 @@ export const Home = () => {
                 <HomeCard 
                     id={'todoCard'}
                     header={'To-Do Dashboard + Weather'}
-                    title={<iframe 
-                        title='To-Do Dashboard'
-                        className='container-fluid ratio ratio-1x1' 
-                        src="https://youtube.com/embed/UHPuEAiCqQA" 
-                        frameBorder="0" 
-                        allowFullScreen>
-                    </iframe>}
+                    title={<img src={listIcon} alt='To do list icon' className='img-fluid imgHover px-5'/>}
                     text1={`Tired of losing your To-Do list after a reload?`}
                     text2={`Check out this Dashboard that retains your To-Dos in local memory. It also includes a weather widget!`}
                     btnClass={'float-end'}
