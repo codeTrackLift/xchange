@@ -68,7 +68,7 @@ export const Home = () => {
             <div className='container-fluid text-center'>
                 <h5><u>Video Tour</u></h5>
                 <iframe 
-                    className='ratio-16x9' 
+                    className='ratio-16x9 boxShadow' 
                     src="https://youtube.com/embed/qeuvfEmJ7_s" 
                     frameBorder="0" 
                     allowFullScreen 
