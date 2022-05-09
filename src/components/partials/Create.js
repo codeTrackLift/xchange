@@ -27,11 +27,8 @@ export const Create = ({ctx, setUser}) => {
         if(!values.nameField) {
             errors.name = 'is required*';
         } 
-        if(!values.nameField.match(/^[A-Za-z0-9 ]+$/)) {
-            errors.name = 'no special characters allowed*';
-        }
-        // if(values.nameField[values.nameField.length + 1] == ' ') {
-        //     errors.name = 'cannot end in a space*';
+        // if(!values.nameField.match(/^[A-Za-z0-9 ]+$/)) {
+        //     errors.name = 'no special characters allowed*';
         // }
         if(!values.pswField) {
             errors.password = 'is required*';
@@ -75,7 +72,7 @@ export const Create = ({ctx, setUser}) => {
         },
         validate,
         onSubmit: (values, {resetForm}) => {
-            let name = values.nameField.toLowerCase().trim();
+            let name = values.nameField.toLowerCase().trim().replace(/[^\w\s]/gi, '');
             let email = values.emailField.toLowerCase().trim();
             const userName = capitalize(name);
             const id = hash(name, email);
@@ -102,7 +99,7 @@ export const Create = ({ctx, setUser}) => {
                         type='name' 
                         onChange={formik.handleChange} 
                         onBlur={formik.handleBlur}
-                        value={formik.values.nameField}
+                        value={formik.values.nameField.replace(/[^\w\s]/gi, '')}
                         className='w-100'
                     />
                     <div>Email {formik.touched.emailField && formik.errors.email ? (
