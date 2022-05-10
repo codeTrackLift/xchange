@@ -94,6 +94,22 @@ const h2Style = {
 export const Header = ({ user, setUser, setTitle}) => {
 
     const { pathname } = useLocation();
+    const renderTitle = () => {
+        switch(pathname) {
+            case '/':
+                return 'Home';
+            case '/account/':
+                return 'Create Account | Log In';
+            case '/deposit/':
+                return 'Deposit';
+            case '/withdraw/':
+                return 'Withdraw';
+            case '/userdata/':
+                return 'User Data';
+            default:
+                return '';
+        }
+    }
 
     const logOut = () => {
         const userName = capitalize(user.split(', Account Number: ')[0]);
@@ -141,7 +157,10 @@ export const Header = ({ user, setUser, setTitle}) => {
                         <span className='fw-bolder' style={{fontVariant:'normal'}}> xPRO </span>
                         <span className='text-black dropShadowWhite'>B
                         <span style={{color:'#990033'}}>a</span>dBank </span>
-                        <span className='fw-bolder'>Project</span></h2>
+                        <span className='fw-bolder'>Project</span>
+                        <hr />
+                        {renderTitle()}
+                    </h2>
 
                     <img
                         id='heroRight'
