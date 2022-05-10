@@ -159,7 +159,7 @@ export const Header = ({ user, setUser, setTitle}) => {
                         <span style={{color:'#990033'}}>a</span>dBank </span>
                         <span className='fw-bolder'>Project</span>
                         <hr />
-                        <span className='mitMaroon textShadow dropShadow fs-3'>{renderTitle()}</span>
+                        <span className='mitMaroon textShadow dropShadowWhite fs-3'>{renderTitle()}</span>
                     </h2>
 
                     <img
