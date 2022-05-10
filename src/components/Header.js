@@ -153,11 +153,11 @@ export const Header = ({ user, setUser, setTitle}) => {
                         style={h2Style}
                         className='text-center text-white col-8'
                     >
-                        <img src={mitLogo} alt='MIT xPRO logo' style={mitLogoStyle} />|
-                        <span className='fw-bolder' style={{fontVariant:'normal'}}> xPRO </span>
+                        <img src={mitLogo} alt='MIT xPRO logo' style={mitLogoStyle} />
+                        <span className='fw-bolder dropShadow textShadow' style={{fontVariant:'normal',borderLeft:'1px solid white'}}> xPRO </span>
                         <span className='text-black dropShadowWhite'>B
                         <span style={{color:'#990033'}}>a</span>dBank </span>
-                        <span className='fw-bolder'>Project</span>
+                        <span className='fw-bolder dropShadow textShadow'>Project</span>
                         <hr />
                         <span className='mitMaroon textShadow dropShadowWhite fs-3'>{renderTitle()}</span>
                     </h2>
