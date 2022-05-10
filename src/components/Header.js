@@ -97,13 +97,13 @@ export const Header = ({ user, setUser, setTitle}) => {
     const renderTitle = () => {
         switch(pathname) {
             case '/':
-                return 'Home';
+                return 'Home Page';
             case '/account/':
-                return 'Create Account | Log In';
+                return 'Accounts';
             case '/deposit/':
-                return 'Deposit';
+                return 'Deposits';
             case '/withdraw/':
-                return 'Withdraw';
+                return 'Withdrawals';
             case '/userdata/':
                 return 'User Data';
             default:
