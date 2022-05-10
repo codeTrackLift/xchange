@@ -55,7 +55,7 @@ export const UserData = ({ctx, setUser}) => {
 
             <div style={greetingStyle}>
                 <h6 className='text-center'><span className='fw-bolder textShadowWhite dropShadow px-1'><span style={{letterSpacing: '-0,5px'}}>M<span className='mitMaroon'>I</span>T</span> | xCHANGE</span> believes in <span className='fw-bolder textShadowWhite dropShadow px-1'>xCHANGING</span> everything... <span className='textSilver'>(including user data)</span></h6>
-                <p className='text-center textSilver'>For demo purposes, user data is stored locally in cookies. Click below to reset.</p>
+                <p className='text-center textSilver'>For demo purposes, user data is retained in local storage. Click below to reset.</p>
             </div>
 
             <Button 
