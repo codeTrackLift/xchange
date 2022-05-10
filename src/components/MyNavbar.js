@@ -56,7 +56,7 @@ export const MyNavbar = () => {
                             trigger={['hover', 'click']}
                             overlay={(
                             <Popover style={PopoverStyle}>
-                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>The Future of Currency</span><hr/><span className='fw-bolder'>MIT | xCHANGE</span><hr/>We have all the current currency <span className='fw-bolder'>xCHANGE</span> rates!</h6>
+                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>tooltip:</span><hr/><span className='fw-bolder'>MIT | xCHANGE</span> is the future of currency.  We have all the current currency <span className='fw-bolder'>xCHANGE</span> rates! (assuming we don't get a 404)</h6>
                             </Popover>
                         )}>
                             <Nav.Link eventKey={1} 
@@ -74,7 +74,7 @@ export const MyNavbar = () => {
                             trigger={['hover', 'click']}
                             overlay={(
                             <Popover style={PopoverStyle}>
-                                <h6 className='px-2'>Create New Account<hr/>Access Existing Account<hr/>Entry Validation<hr/>Unique User Emails</h6>
+                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>tooltip:</span><hr/>Register a new account, or log into an existing account.  Accounts include input validation, hashed acccount numbers, and a mock database!</h6>
                             </Popover>
                         )}>
                             <Nav.Link eventKey={2} 
@@ -92,7 +92,7 @@ export const MyNavbar = () => {
                             trigger={['hover', 'click']}
                             overlay={(
                             <Popover style={PopoverStyle}>
-                                <h6 className='px-2'>Electronic Deposits<hr/>Transaction Notes<hr/>Updated Balance</h6>
+                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>tooltip:</span><hr/>We offer the electronic deposits with input validation and optional transaction notes.  Each successful transaction is accompanied by an updated balance and user notification.</h6>
                             </Popover>
                         )}>
                              <Nav.Link eventKey={3} 
@@ -110,7 +110,7 @@ export const MyNavbar = () => {
                             trigger={['hover', 'click']}
                             overlay={(
                             <Popover style={PopoverStyle}>
-                                <h6 className='px-2'>Electronic Withdrawals<hr/>Transaction Notes<hr/>Updated Balance<hr/>Overdraft Protection</h6>
+                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>tooltip:</span><hr/>We offer the electronic withdrawals with input validation and optional transaction notes.  Each successful transaction is accompanied by an updated balance and user notification. Complimentary overdraft protection is included with each new account!</h6>
                             </Popover>
                         )}>
                             <Nav.Link eventKey={4} 
@@ -128,7 +128,7 @@ export const MyNavbar = () => {
                             trigger={['hover', 'click']}
                             overlay={(
                             <Popover style={PopoverStyle}>
-                                <h6 className='px-2'>Log In Credentials<hr/>Transaction History<hr/>Reset User Data</h6>
+                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>tooltip:</span><hr/>We support full data transparency.  Our local storage retains user names, emails, passwords, and all historical transactions.  User data will persist through a reload, but may be reset as desired.</h6>
                             </Popover>
                         )}>
                              <Nav.Link eventKey={5} 
