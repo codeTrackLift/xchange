@@ -1,15 +1,14 @@
 const footerList = [
     ['MIT | xPRO', 'https://xpro.mit.edu/'],
-    ['Full Stack Coding Bootcamp', 'https://xpro.mit.edu/programs/program-v1:xPRO+PCCx+R1/'],
+    ['Full Stack Bootcamp', 'https://xpro.mit.edu/programs/program-v1:xPRO+PCCx+R1/'],
     ['MERN Development', 'https://executive-ed.xpro.mit.edu/professional-certificate-coding'],
-    ['Portfolio', 'https://www.codebypete.com/'],
+    ['GitHub Readme', 'https://github.com/codeTrackLift/xchange#readme'],
+    ['Developer Portfolio', 'https://www.codebypete.com/'],
     ['About Us', 'https://www.codebypete.com/pages/about.html'],
-    ['Blog', 'https://www.codebypete.com/pages/blog.html'],
+    ['Blog Articles', 'https://www.codebypete.com/pages/blog.html'],
     ['Projects', 'https://www.codebypete.com/pages/projects.html'],
     ['Careers', 'https://www.codebypete.com/pages/resume.html'],
     ['Contact Us', 'https://www.codebypete.com/pages/contact.html'],
-    ['GitHub Readme', 'https://github.com/codeTrackLift/xchange#readme'],
-    ['MIT License', 'https://github.com/codeTrackLift/xchange/blob/main/LICENSE'],
 ]
 
 const listStyle = {
