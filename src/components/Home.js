@@ -59,9 +59,11 @@ export const Home = () => {
                 <Nav.Link className='col-4 my-auto' to='/account/' href='/account/' as={NavLink}>
                     <Button id='signUpButton' style={signUpButtonStyle}>Register</Button>
                 </Nav.Link>
-                <div className='row'>
-                    <h5 className='text-center my-auto col-8'>Now in the App Store, bank with us on mobile!</h5>
-                    <img src={qrxChange} style={qrxChangeStyle} className='img-fluid col-4 imgHover' alt='QR code for MIT xChange Bad Bank Project'/>
+                <div className='d-none d-md-none d-lg-block'>
+                    <div className='row'>
+                        <h5 className='text-center my-auto col-8'>Now in the App Store, bank with us on mobile!</h5>
+                        <img src={qrxChange} style={qrxChangeStyle} className='img-fluid col-4 imgHover' alt='QR code for MIT xChange Bad Bank Project'/>
+                    </div>
                 </div>
             </div>
 
@@ -80,7 +82,7 @@ export const Home = () => {
                 />
             </div>
             
-            <Row style={silverStyle}>
+            <Row style={silverStyle} className='gap-2'>
 
                 <h2 className='text-center'>Limited Time Special Offer... FREE Productivity Apps!</h2>
 
