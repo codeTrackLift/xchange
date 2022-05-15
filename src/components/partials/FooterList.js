@@ -6,7 +6,7 @@ const footerList = [
     ['About Us', 'https://www.codebypete.com/pages/about.html'],
     ['Blog', 'https://www.codebypete.com/pages/blog.html'],
     ['Projects', 'https://www.codebypete.com/pages/projects.html'],
-    ['Careers', 'https://www.codebypete.com/pics/resume.html'],
+    ['Careers', 'https://www.codebypete.com/pages/resume.html'],
     ['Contact Us', 'https://www.codebypete.com/pages/contact.html'],
     ['GitHub Readme', 'https://github.com/codeTrackLift/xchange#readme'],
     ['MIT License', 'https://github.com/codeTrackLift/xchange/blob/main/LICENSE'],
