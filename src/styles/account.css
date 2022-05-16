@@ -17,3 +17,8 @@
         font-weight: bolder;
     }
 }
+
+#quickLogIn:hover {
+    background-color: #990033 !important;
+    color: white !important;
+}

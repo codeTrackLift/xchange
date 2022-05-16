@@ -4,6 +4,7 @@ import { useLocation } from 'react-router-dom';
 import { CurrentUser } from './partials/CurrentUser';
 import { Create } from './partials/Create';
 import { LogIn } from './partials/LogIn';
+import { GuestLogIn } from './partials/GuestLogIn';
 import { clearScrollMagic } from './helpers/scrollMagic';
 import { capitalize } from './helpers/capitalize';
 
@@ -68,8 +69,19 @@ export const CreateAccount = ({ctx, user, setUser}) => {
                 <p className='text-end'>This means you, Mom and Dad!</p>
             </div>
 
+            { !user ? (
+                <GuestLogIn ctx={ctx} setUser={setUser} />
+            ) : (
+                null
+            )}
+
             <Create ctx={ctx} setUser={setUser} />
-            <LogIn setUser={setUser} ctx={ctx} />
+
+            { !user ? (
+                <LogIn ctx={ctx} setUser={setUser} />
+            ) : (
+                null
+            )}
 
         </section>
     )
