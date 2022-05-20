@@ -1,43 +1,50 @@
 import ScrollMagic from 'scrollmagic';
 
 export const initScrollMagicHome = () => {
-    var signUpButtonController = new ScrollMagic.Controller();
-    var signUpButton = new ScrollMagic.Scene({
+    const signUpButtonController = new ScrollMagic.Controller();
+    const signUpButton = new ScrollMagic.Scene({
             triggerElement: '#signUpButton',
             offset: -200
         })        
         .setClassToggle('#signUpButton', 'shift')
         .addTo(signUpButtonController);
-    var mobileEuroController = new ScrollMagic.Controller();
-    var mobileEuro = new ScrollMagic.Scene({
+    const mobileEuroController = new ScrollMagic.Controller();
+    const mobileEuro = new ScrollMagic.Scene({
             triggerElement: '#signUpButton',
             offset: -200
         })        
         .setClassToggle('#mobileEuro', 'shift')
         .addTo(mobileEuroController);
-    var pomodoroCardController = new ScrollMagic.Controller();
-    var pomodoroCard = new ScrollMagic.Scene({
+    const goalsCardController = new ScrollMagic.Controller();
+    const goalsCard = new ScrollMagic.Scene({
+            triggerElement: '#goalsCard',
+            offset: -300
+        })        
+        .setClassToggle('#goalsCard', 'shift')
+        .addTo(goalsCardController);
+    const pomodoroCardController = new ScrollMagic.Controller();
+    const pomodoroCard = new ScrollMagic.Scene({
             triggerElement: '#pomodoroCard',
             offset: -300
         })        
         .setClassToggle('#pomodoroCard', 'shift')
         .addTo(pomodoroCardController);
-    var markdownCardController = new ScrollMagic.Controller();
-    var markdownCard = new ScrollMagic.Scene({
+    const markdownCardController = new ScrollMagic.Controller();
+    const markdownCard = new ScrollMagic.Scene({
             triggerElement: '#markdownCard',
             offset: -300
         })        
         .setClassToggle('#markdownCard', 'shift')
         .addTo(markdownCardController);
-    var drumCalcCardController = new ScrollMagic.Controller();
-    var drumCalcCard = new ScrollMagic.Scene({
+    const drumCalcCardController = new ScrollMagic.Controller();
+    const drumCalcCard = new ScrollMagic.Scene({
             triggerElement: '#drumCalcCard',
             offset: -300
         })        
         .setClassToggle('#drumCalcCard', 'shift')
         .addTo(drumCalcCardController);
-    var todoCardController = new ScrollMagic.Controller();
-    var todoCard = new ScrollMagic.Scene({
+    const todoCardController = new ScrollMagic.Controller();
+    const todoCard = new ScrollMagic.Scene({
             triggerElement: '#todoCard',
             offset: -300
         })        
@@ -46,32 +53,32 @@ export const initScrollMagicHome = () => {
 }
 
 export const initScrollMagicHeader = () => {
-    var heroLeftController = new ScrollMagic.Controller();
-    var heroLeft = new ScrollMagic.Scene({
+    const heroLeftController = new ScrollMagic.Controller();
+    const heroLeft = new ScrollMagic.Scene({
             triggerElement: '#heroLeft',
             offset: -300,
             duration: 500
         })        
         .setClassToggle('#heroLeft', 'show')
         .addTo(heroLeftController);
-    var heroRightController = new ScrollMagic.Controller();
-    var heroRight = new ScrollMagic.Scene({
+    const heroRightController = new ScrollMagic.Controller();
+    const heroRight = new ScrollMagic.Scene({
             triggerElement: '#heroLeft',
             offset: -300,
             duration: 500
         })        
         .setClassToggle('#heroRight', 'show')
         .addTo(heroRightController);
-    var heroTextController = new ScrollMagic.Controller();
-    var heroText = new ScrollMagic.Scene({
+    const heroTextController = new ScrollMagic.Controller();
+    const heroText = new ScrollMagic.Scene({
             triggerElement: '#heroLeft',
             offset: -300,
             duration: 500
         })        
         .setClassToggle('#heroText', 'show')
         .addTo(heroTextController);
-    var redRowController = new ScrollMagic.Controller();
-    var redRow = new ScrollMagic.Scene({
+    const redRowController = new ScrollMagic.Controller();
+    const redRow = new ScrollMagic.Scene({
             triggerElement: '#heroLeft',
             offset: -300,
             duration: 500
@@ -81,35 +88,18 @@ export const initScrollMagicHeader = () => {
 }
 
 export const initScrollMagicTransaction = () => {
-    var transactionImageController = new ScrollMagic.Controller();
-    var transactionImage = new ScrollMagic.Scene({
+    const transactionImageController = new ScrollMagic.Controller();
+    const transactionImage = new ScrollMagic.Scene({
             triggerElement: '#transactionImage',
             offset: 0
         })        
         .setClassToggle('#transactionImage', 'show')
         .addTo(transactionImageController);
-    var transactionTextController = new ScrollMagic.Controller();
-    var transactionText = new ScrollMagic.Scene({
+    const transactionTextController = new ScrollMagic.Controller();
+    const transactionText = new ScrollMagic.Scene({
             triggerElement: '#transactionText',
             offset: 50
         })        
         .setClassToggle('#transactionText', 'show')
         .addTo(transactionTextController);
-}
-
-export const clearScrollMagic = () => {
-    clearScrollMagicHome();
-    clearScrollMagicTransaction();
-}
-
-const clearScrollMagicHome = () => {
-    var signUpButtonController = null;
-    var signUpButton = null;
-    var mobileEuroController = null;
-    var mobileEuro = null;
-}
-
-const clearScrollMagicTransaction = () => {
-    var transactionImageController = null;
-    var transactionImage = null;
 }

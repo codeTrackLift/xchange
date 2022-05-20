@@ -1,6 +1,5 @@
 import { Button, Card, Row } from 'react-bootstrap';
 
-import { clearScrollMagic } from './helpers/scrollMagic';
 import { capitalize } from './helpers/capitalize';
 
 const sectionStyle = {
@@ -40,8 +39,6 @@ export const UserData = ({ctx, setUser}) => {
         home.classList.remove('active');
     }
     setTimeout(clearHomeActive, 50);
-
-    clearScrollMagic();
 
     const resetCookies = () => {
         setUser(null);

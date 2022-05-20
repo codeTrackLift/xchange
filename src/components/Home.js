@@ -3,12 +3,13 @@ import { NavLink } from 'react-router-dom';
 import { Button, Nav, Row } from 'react-bootstrap';
 
 import { HomeCard } from './partials/HomeCard'
-import { initScrollMagicHome, clearScrollMagic} from './helpers/scrollMagic';
+import { initScrollMagicHome } from './helpers/scrollMagic';
 
 import mobileEuro from '../images/mobileEuro.jpg';
 import qrxChange from '../images/qrxChange.png';
-import markdown from '../images/markdownPreviewer.jpg';
+import mernGoals from '../images/mernGoals.png';
 import pomodoro from '../images/giphyPomodoro.gif';
+import markdown from '../images/markdownPreviewer.jpg';
 import drumCalc from '../images/drumCalc.gif';
 import listIcon from '../images/listIcon.png';
 
@@ -47,7 +48,6 @@ const qrxChangeStyle = {
 
 export const Home = () => {
     
-    clearScrollMagic();
     setTimeout(initScrollMagicHome,50);
 
     return (
@@ -87,12 +87,23 @@ export const Home = () => {
                 <h2 className='text-center'>Limited Time Special Offer... FREE Productivity Apps!</h2>
 
                 <HomeCard 
+                    id={'goalsCard'}
+                    header={'Goal Setter | Full Stack App'}
+                    title={<img src={mernGoals} alt='Full stack goal setter app' className='img-fluid imgHover' />}
+                    text1={`Overwhelmed with your goals, or need help tracking progress?`}
+                    text2={`Use our Goal Setter App! It has JSON Web Token authentication and is hosted on Heroku!`}
+                    btnClass={''}
+                    href={'https://goalsbypete.herokuapp.com/'}
+                    btnText={'Set Goals'}
+                />
+
+                <HomeCard 
                     id={'pomodoroCard'}
                     header={'Pomodoro Clock + Test Mode'}
                     title={<img src={pomodoro} alt='Pomodoro app animated gif' className='img-fluid imgHover' />}
                     text1={`Do you have trouble focusing?  Are you easily distracted?`}
                     text2={`Use our Pomodoro Clock, with integrated 'Test Mode' to enhance your productivity!`}
-                    btnClass={''}
+                    btnClass={'float-end'}
                     href={'https://codetracklift.github.io/pomodoro'}
                     btnText={'Pomodoro'}
                 />
@@ -103,7 +114,7 @@ export const Home = () => {
                     title={<img src={markdown} alt='HTML Markdown Previewer build in React JS' className='img-fluid imgHover'/>}
                     text1={`Too busy to check if your HTML markdown is semantically correct?`}
                     text2={`No problem! Just use our free Markdown Previewer!  It was built using create-react-app!`}
-                    btnClass={'float-end'}
+                    btnClass={''}
                     href={'https://codetracklift.github.io/markdown-previewer'}
                     btnText={'Markdown'}
                 />
@@ -114,7 +125,7 @@ export const Home = () => {
                     title={<img src={drumCalc} alt='Drum set calculator' className='img-fluid imgHover' />}
                     text1={`Ever wanted to play the drums while doing math?`}
                     text2={`Well now you can! Practice your rhythm as you enter digits and perform arithmetic.`}
-                    btnClass={''}
+                    btnClass={'float-end'}
                     href={'https://codetracklift.github.io/odin-calc'}
                     btnText={'Calculator'}
                 />
@@ -125,7 +136,7 @@ export const Home = () => {
                     title={<img src={listIcon} alt='To do list icon' className='img-fluid imgHover px-5'/>}
                     text1={`Tired of losing your To-Do list after a reload?`}
                     text2={`Check out this Dashboard that retains your To-Dos in local memory. It also includes a weather widget!`}
-                    btnClass={'float-end'}
+                    btnClass={''}
                     href={'https://codetracklift.github.io/todo'}
                     btnText={'Dashboard'}
                 />

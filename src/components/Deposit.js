@@ -2,7 +2,7 @@ import React from 'react'
 import { Row } from 'react-bootstrap'
 
 import { Transaction } from './partials/Transaction';
-import { clearScrollMagic, initScrollMagicTransaction } from './helpers/scrollMagic';
+import { initScrollMagicTransaction } from './helpers/scrollMagic';
 
 import wallet from '../images/wallet.png'
 
@@ -32,7 +32,6 @@ export const Deposit = ({ctx, user}) => {
     }
     setTimeout(clearHomeActive, 50);
 
-    clearScrollMagic();
     setTimeout(initScrollMagicTransaction, 50);
 
     return (

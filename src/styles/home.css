@@ -39,14 +39,17 @@
 
 #pomodoroCard, #drumCalcCard {
     transition: all 0.25s ease-in-out;
-    transform: translateX(4rem);
-    opacity: 0;
-}
-#markdownCard, #todoCard {
-    transition: all 0.25s ease-in-out;
     transform: translateX(-4rem);
     opacity: 0;
 }
+
+#goalsCard,#markdownCard, #todoCard {
+    transition: all 0.25s ease-in-out;
+    transform: translateX(4rem);
+    opacity: 0;
+}
+
+#goalsCard.shift,
 #pomodoroCard.shift,
 #drumCalcCard.shift,
 #markdownCard.shift,

@@ -5,7 +5,6 @@ import { CurrentUser } from './partials/CurrentUser';
 import { Create } from './partials/Create';
 import { LogIn } from './partials/LogIn';
 import { GuestLogIn } from './partials/GuestLogIn';
-import { clearScrollMagic } from './helpers/scrollMagic';
 import { capitalize } from './helpers/capitalize';
 
 import cartoonMoney from '../images/cartoonMoney.png';
@@ -43,8 +42,6 @@ export const CreateAccount = ({ctx, user, setUser}) => {
         userData.classList.remove('active');
     }
     setTimeout(clearHomeActive, 50);
-
-    clearScrollMagic();
 
     const logOut = () => {
         const userName = capitalize(user.split(', Account Number: ')[0]);
