@@ -88,10 +88,10 @@ export const Home = () => {
 
                 <HomeCard 
                     id={'goalsCard'}
-                    header={'Goal Setter | Full Stack App'}
+                    header={'GoalSetter | MERN CRUD App'}
                     title={<img src={mernGoals} alt='Full stack goal setter app' className='img-fluid imgHover' />}
                     text1={`Overwhelmed with your goals, or need help tracking progress?`}
-                    text2={`Use our Goal Setter App! It has JSON Web Token authentication and is hosted on Heroku!`}
+                    text2={`Use our Full Stack GoalSetter! It uses JSON Web Tokens and is hosted on Heroku!`}
                     btnClass={''}
                     href={'https://goalsbypete.herokuapp.com/'}
                     btnText={'Set Goals'}
