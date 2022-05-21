@@ -48,7 +48,7 @@ The project is a functional, fully responsive, and mobile first web application 
     </ul>
     <li>Deposit and Withdraw Pages</li>
     <ul>
-        <li>Include a form on a Bootstrap card showing user balance</li>
+        <li>Includes a form on a Bootstrap card showing user balance</li>
         <li>Form has an input field: amount and submit button</li>
         <li>Entry validation: not a number, negative numbers, overdraft protection</li>
         <li>Submit button is disabled if input is blank</li>
@@ -56,7 +56,7 @@ The project is a functional, fully responsive, and mobile first web application 
     </ul>
     <li>User Data Page</li>
     <ul>
-        <li>Inclues a styled Bootstrap card</li>
+        <li>Includes a styled Bootstrap card</li>
         <li>User data is displayed on the card instead of JSON format</li>
     </ul>
 </ol>
