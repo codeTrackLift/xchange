@@ -92,7 +92,7 @@ export const MyNavbar = () => {
                             trigger={['hover', 'click']}
                             overlay={(
                             <Popover style={PopoverStyle}>
-                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>tooltip:</span><hr/>We offer the electronic deposits with input validation and optional transaction notes.  Each successful transaction is accompanied by an updated balance and user notification.</h6>
+                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>tooltip:</span><hr/>We offer electronic deposits with input validation and optional transaction notes.  Each successful transaction is accompanied by an updated balance and user notification.</h6>
                             </Popover>
                         )}>
                              <Nav.Link eventKey={3} 
@@ -110,7 +110,7 @@ export const MyNavbar = () => {
                             trigger={['hover', 'click']}
                             overlay={(
                             <Popover style={PopoverStyle}>
-                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>tooltip:</span><hr/>We offer the electronic withdrawals with input validation and optional transaction notes.  Each successful transaction is accompanied by an updated balance and user notification. Complimentary overdraft protection is included with each new account!</h6>
+                                <h6 className='px-2'><span style={{fontVariant:'small-caps'}}>tooltip:</span><hr/>We offer electronic withdrawals with input validation and optional transaction notes.  Each successful transaction is accompanied by an updated balance and user notification. Complimentary overdraft protection is included with each new account!</h6>
                             </Popover>
                         )}>
                             <Nav.Link eventKey={4} 
