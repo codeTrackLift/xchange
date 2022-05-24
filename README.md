@@ -1,11 +1,13 @@
 # <img src='./public/favicon.ico' alt='MIT xPro logo' width='30'> **MIT xCHANGE** | BadBank Project <img src='https://codetracklift.github.io/codeTrackLift/logos/mitxPro_logoStacked.jpg' alt='MIT xPro logo' width='30'>
 <img src='./src/images/giphyStockTicker.gif' alt='MIT xCHANGE custom JavaScript stock ticker animated gif'>
 
- ***Try Demo:*** [https://codetracklift.github.io/xchange/](https://codetracklift.github.io/xchange/)
+ ***Demo:*** [https://codetracklift.github.io/xchange/](https://codetracklift.github.io/xchange/)
 
  ***Video Tour:*** [https://youtu.be/qeuvfEmJ7_s/](https://youtu.be/qeuvfEmJ7_s/)
 
-Initial development of this project took about 10 days and was completed approximately 6 months into myCodingJourney.  This BadBank was subsequently integrated with a MongoDB database, see the [Full Stack MERN Bank](https://xch-mern.herokuapp.com/) project for more details.
+Initial development of this project took about 10 days and was completed approximately 6 months into myCodingJourney.  
+
+In the following weeks, this BadBank integrated with a MongoDB database, see the [Full Stack MERN Bank Project](https://xch-mern.herokuapp.com/)  or [Readme](https://github.com/codeTrackLift/xch-mern#readme) for more details.
 
 >**Skills Utilized**:
 <ol>
