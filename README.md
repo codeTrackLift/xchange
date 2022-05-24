@@ -5,7 +5,7 @@
 
  ***Video Tour:*** [https://youtu.be/qeuvfEmJ7_s/](https://youtu.be/qeuvfEmJ7_s/)
 
-Initial development of this project took about 10 days.  This was completed approximately 6 months into myCodingJourney.
+Initial development of this project took about 10 days and was completed approximately 6 months into myCodingJourney.  This BadBank was subsequently integrated with a MongoDB database, see the [Full Stack MERN Bank](https://xch-mern.herokuapp.com/) project for more details.
 
 >**Skills Utilized**:
 <ol>
