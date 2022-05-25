@@ -37,7 +37,7 @@
     }
 }
 
-#pomodoroCard, #drumCalcCard {
+#pomodoroCard, #drumCalcCard, #xChMernCard {
     transition: all 0.25s ease-in-out;
     transform: translateX(-4rem);
     opacity: 0;
@@ -53,7 +53,8 @@
 #pomodoroCard.shift,
 #drumCalcCard.shift,
 #markdownCard.shift,
-#todoCard.shift {
+#todoCard.shift,
+#xChMernCard.shift {
     transform: translateX(0);
     opacity: 1 !important;
 }

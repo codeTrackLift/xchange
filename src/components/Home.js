@@ -12,6 +12,7 @@ import pomodoro from '../images/giphyPomodoro.gif';
 import markdown from '../images/markdownPreviewer.jpg';
 import drumCalc from '../images/drumCalc.gif';
 import listIcon from '../images/listIcon.png';
+import xchmern from '../images/xchmern.jpg';
 
 import '../styles/home.css';
 
@@ -139,6 +140,17 @@ export const Home = () => {
                     btnClass={''}
                     href={'https://codetracklift.github.io/todo'}
                     btnText={'Dashboard'}
+                />
+
+                <HomeCard 
+                    id={'xChMernCard'}
+                    header={'Full Stack MERN Bank'}
+                    title={<img src={xchmern} alt='MIT xCHANGE Full Stack MERN Bank' className='img-fluid imgHover px-5'/>}
+                    text1={`Are your user account only kept on local storage?`}
+                    text2={`MIT xCHANGE has undergone a full stack upgrade with a cloud database. It is hosted on Heroku and uses JSON Web Tokens!`}
+                    btnClass={'float-end'}
+                    href={'https://xch-mern.herokuapp.com/'}
+                    btnText={'MERN Bank'}
                 />
 
             </Row>

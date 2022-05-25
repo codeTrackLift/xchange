@@ -50,6 +50,13 @@ export const initScrollMagicHome = () => {
         })        
         .setClassToggle('#todoCard', 'shift')
         .addTo(todoCardController);
+    const xChMernCardController = new ScrollMagic.Controller();
+    const xChMernCard = new ScrollMagic.Scene({
+            triggerElement: '#xChMernCard',
+            offset: -300
+        })        
+        .setClassToggle('#xChMernCard', 'shift')
+        .addTo(xChMernCardController);
 }
 
 export const initScrollMagicHeader = () => {
