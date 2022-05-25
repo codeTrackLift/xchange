@@ -146,8 +146,8 @@ export const Home = () => {
                     id={'xChMernCard'}
                     header={'Full Stack MERN Bank'}
                     title={<img src={xchmern} alt='MIT xCHANGE Full Stack MERN Bank' className='img-fluid imgHover px-5'/>}
-                    text1={`Are your user account only kept on local storage?`}
-                    text2={`MIT xCHANGE has undergone a full stack upgrade with a cloud database. It is hosted on Heroku and uses JSON Web Tokens!`}
+                    text1={`Are your user accounts kept on local storage or lost after a reload?`}
+                    text2={`MIT xCHANGE has undergone a full stack upgrade with a cloud database. It's hosted on Heroku and uses JSON Web Tokens!`}
                     btnClass={'float-end'}
                     href={'https://xch-mern.herokuapp.com/'}
                     btnText={'MERN Bank'}
